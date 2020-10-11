@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiPeliculas</name>
+    </assembly>
+    <members>
+        <member name="M:ApiPeliculas.Controllers.CategoriasController.GetCategorias">
+            <summary>
+            Obtener todas las categorias 
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="M:ApiPeliculas.Controllers.CategoriasController.GetCategoria(System.Int32)">
+             <summary>
+             obtener una categoria individual
+             </summary>
+             <param name="categoriaId"></param>
+             <returns></returns>
+            
+        </member>
+        <member name="M:ApiPeliculas.Controllers.CategoriasController.CrearCategoria(ApiPeliculas.Models.DTO.CategoriaDto)">
+            <summary>
+            Crea una categoria
+            </summary>
+            <param name="categoriaDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.CategoriasController.ActualizarCategoria(System.Int32,ApiPeliculas.Models.DTO.CategoriaDto)">
+            <summary>
+            Actualiza una categoria
+            </summary>
+            <param name="categoriaId"></param>
+            <param name="categoriaDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.CategoriasController.BorrarCategoria(System.Int32)">
+            <summary>
+            Borra la categoria.
+            </summary>
+            <param name="categoriaId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ApiPeliculas.PeliculasMapper.PeliculasMappers">
+            <summary>
+            vinculamos el DTO con el modelo.
+            </summary>
+        </member>
+    </members>
+</doc>
